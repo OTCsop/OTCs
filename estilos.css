@@ -1,0 +1,242 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+
+
+body{
+	background-image: url(-img/fondo.jpeg);
+	color: #000;
+	background-size: cover;
+
+}
+
+#contenedor{
+	width: 1200px;
+	margin: auto;
+	margin-top: 0px;
+}
+
+
+header{
+	background: #A67B48;
+	height: 210px;
+	margin-top: 10px;
+
+
+}
+
+header h1{
+	text-align: center;
+	line-height: 3px;
+	font-family: arial;
+	font-size: 50px;
+	font-style: italic;
+}
+
+nav{
+	height: 60px;
+	max-width: 1300px;
+	margin: auto;
+	background-color: #39D9E6;
+	background: #000000;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: red;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: black;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+#html{
+	margin: auto;
+	padding: 20px;
+	max-width: 900px;
+	background: #60BCB8;
+
+}
+
+nav h2{
+	text-align: center;
+	line-height: 40px;
+
+}
+section{
+	background: #D8D8D8;
+	width: 1200px;
+	line-height: 20px;
+	float: left;
+	text-emphasis: center;
+}
+
+article{
+	margin: 20px;
+
+}
+
+
+footer{
+	background: #A67B48;
+	clear: both;
+	height: 90px;
+	max-width: 1200px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 0px;
+	margin: auto;
+}
+
+#Menu-h{
+	max-width: 1200px;
+	min-height: 50px;
+	background: #A7B0B9;
+	max-resolution: 0 auto;
+}
+
+#Menu-h ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+}
+
+#Menu-h a{
+	columns: #fff;
+	display: display;
+	padding: 20px;
+	text-decoration: none;
+	background-attachment: #000;
+	font-family: algerian;
+	font-size: 18px;
+}
+
+#Menu-h a:hover{
+	background: #fff;
+	display: display;
+}
+
+
+
+
+.info img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.e1{
+	color: #17439C;
+}
+.Gersson2 img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.e2{
+	color: #17439C;
+}
+
+.Gersson3 img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.e3{
+	color: #D7E2DE;
+}
+
+.Gersson4 img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.e4{
+	color: #D7E2DE;
+}
+
+.Gersson5 img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.enlace5{
+	color: #2A7759;
+}
+.volve{
+	color: #2A7759;
+}
+
+.contenedor {
+	display: flex;
+	justify-content: center;
+	margin-top:0px;
+	padding: 35px;
+}
+
+.img-1 {
+	margin-right: 5px;
+}
+
+.img-2 {
+	margin-right: 10px;
+}
+.img-3 {
+	margin-right: 10px;
+}
+
+
+
+.img-1 {
+  background: #F1F1F1;
+	line-height: 18px;
+	padding: 4px;
+	text-align: center;
+}
+.wp-caption-text {
+	color: #888;
+	font-size: 12px;
+	margin: 5px;
+}
+
+.btn {
+	padding: 15px;
+	text-decoration: none; 
+}
+
+body{
+	background-image: url("C:\xampp\htdocs\My__Proyec\-img\Comentarios.png");
+}
